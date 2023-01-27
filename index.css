@@ -1,0 +1,142 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+header,main
+{
+    width: 295px;
+    margin: 0 auto;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+h1
+{
+    color: #0F8CDF;
+    font-size: 25px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tweet-input
+{   
+    font-size: 19px; 
+    width: 295px;
+    height: 80px;
+    resize: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.twitter-logo
+{
+    width: 47px;
+    height: 47px;
+}
+
+.tweet-btn
+{
+    font-size: 21px;
+    color: whitesmoke;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0F8CDF;
+    font-weight: 700;
+}
+
+.tweet-input-container,.reply-input-container
+{
+    display: flex;
+    gap: 10px;
+}
+
+.profile-pic
+{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.tweets-container,.tweet-inner,.replies-container,.reply-inner
+{
+    display: flex;
+}
+
+.tweets-container,.replies-container
+{
+    flex-direction: column;
+}
+
+.tweet-inner,.reply-inner
+{
+    border-top: 1px solid lightgray;
+    font-size: 16px;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.tweet-handle
+{
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.tweet-text
+{
+    width: 230px;
+}
+
+.tweet-details
+{
+    display: flex;
+    width: 175px;
+    justify-content: space-between;
+}
+
+.fa-heart,.fa-retweet
+{
+    color: lightgray;
+}
+
+.liked
+{
+    color: red;
+}
+
+.retweeted
+{
+    color: limegreen;
+}
+
+.reply-inner
+{
+    width: 220px;
+    margin: 0 auto;
+}
+
+.hidden
+{
+    display: none;
+}
